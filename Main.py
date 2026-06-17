@@ -1,11 +1,11 @@
-import time 
+import time #Measures the time taken to type the sentence 
 import random # importing the random module to generate random numbers  
 
 sentences = ["The cat is on the roof.",
             "I love to eat pizza.",
             "The sun is shining brightly.", 
             "She is reading a book.", 
-            "The dog is barking loudly."]
+            "The dog is barking loudly."]  #Sample sentences for the typing speed test
 def typing_speed_test():
     sentence = random.choice(sentences) # selecting a random sentence from the list 
     print("Type the following sentence: ")
